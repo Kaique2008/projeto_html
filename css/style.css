@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+nav {
+    display: flex;
+    background-color: #E3E8FF;
+    align-items: center ;
+    justify-content: space-evenly;
+    img {
+        width: 125px;
+    }
+    .busca {
+        background-color: #FFFFFF;
+        border-radius: 100px;
+        width: 500px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .pessoa, .compra {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        gap: 8px;
+        img {
+            width: 60px;
+        }
+    }
+}
+.banner {
+    margin-top: 50px;
+    background-image: url('../img/banner.png');
+    height: 30dvw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tenis {
+    width: 25dvw;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    img {
+        width: 22dvw;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .compra {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        img {
+            width: 30px;
+        }
+    }
+}
+.linha {
+    padding-block: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.alinha {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+main {
+    height: 100dvh;
+}
